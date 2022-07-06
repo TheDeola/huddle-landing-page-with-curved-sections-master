@@ -42,7 +42,18 @@ html, body {
     color: var(--LightPink);
     background-color: white;
 }
-#get {
+#submitTop {
+    width: 220px;
+    padding: 15px;
+    border: .5px solid var(--LightPink);
+    border-radius: 25px;
+    font-size: small;
+    color: white;
+    background-color: var(--Pink);
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+#submitBottom {
     width: 220px;
     padding: 15px;
     border: .5px solid var(--LightPink);
@@ -239,7 +250,14 @@ input {
     .build h3 {
         padding: 0 30px;
     }
-    #get {
+    #submitTop {
+        width: 160px;
+        align-self: center;
+        margin-top: 5px;
+        margin-bottom: 200px;
+        font-size: x-small;
+    }
+    #submitBottom {
         width: 160px;
         align-self: center;
         margin-top: 5px;
